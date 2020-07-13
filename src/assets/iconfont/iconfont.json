@@ -1,0 +1,16 @@
+{
+  "id": "1936935",
+  "name": "introdu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "998824",
+      "name": "箭头",
+      "font_class": "ai214",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    }
+  ]
+}

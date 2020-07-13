@@ -1,0 +1,75 @@
+@keyframes rubberBand {
+  0% {
+    transform: scale(1,1);
+  }
+  35% {
+    transform: scale(1.15,0.85);
+  }
+  45% {
+    transform: scale(0.95,1);
+  }
+  60% {
+    transform: scale(1.2,0.8);
+  }
+  75% {
+    transform: scale(1,1);
+  }
+}
+
+@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes lighting {
+  0%, 100% {
+    color: #fff;
+    filter: blur(2xp);
+    box-shadow: 0 0 10px rgba(0,0,0,.2),
+                0 0 30px rgba(0,0,0,.5);
+  }
+  20%, 80% {
+    color: #111;
+    box-shadow: none;
+  }
+}
+
+@keyframes neonBtn1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+@keyframes neonBtn2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+@keyframes neonBtn3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+@keyframes neonBtn4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100px;
+  }
+}

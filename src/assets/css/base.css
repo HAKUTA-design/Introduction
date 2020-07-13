@@ -1,0 +1,68 @@
+@import "./normalize.css";
+
+/*:root -> 获取根元素html*/
+:root {
+  /* 定义变量 */
+  --line-height: 1.5;
+
+  /* 
+   * #970747
+   * #fef4e8
+   * #1989ac
+   * #283e56
+   */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif,"iconfont";
+  user-select: none; /* 禁止用户鼠标在页面上选中文字/图片等 */
+  -webkit-tap-highlight-color: transparent; /* webkit是苹果浏览器引擎，tap点击 */
+  /* rem vw/vh */
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul,li {
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.clear-fix::after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.clear-fix {
+  zoom: 1;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
